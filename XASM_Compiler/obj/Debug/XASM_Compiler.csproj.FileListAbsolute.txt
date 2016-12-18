@@ -1,0 +1,1 @@
+G:\Workspace\c#\syntaxhighlightbox-18a16149c7b1\syntaxhighlightbox_18a16149c7b1\XASM_Compiler\bin\Debug\XASM_Compiler.exe.config

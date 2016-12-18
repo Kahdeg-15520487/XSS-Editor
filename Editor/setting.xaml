@@ -1,0 +1,22 @@
+﻿<Window x:Class="Editor.setting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Editor"
+        mc:Ignorable="d"
+        Title="setting" Height="230" Width="300">
+    <Grid>
+        <TextBox x:Name="textBox_xsscompilerpath" HorizontalAlignment="Left" Height="20" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="230"/>
+        <TextBox x:Name="textBox_xasmcompilerpath" HorizontalAlignment="Left" Height="19" Margin="0,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="230"/>
+        <TextBox x:Name="textBox_xsedebuggerpath" HorizontalAlignment="Left" Height="20" Margin="0,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="230"/>
+        <CheckBox x:Name="checkBox_toxasmsourcecode" Content="Compile to XASM code" HorizontalAlignment="Left" Height="21" Margin="10,105,0,0" VerticalAlignment="Top" Width="200"/>
+        <CheckBox x:Name="checkBox_toxsesourcecode" Content="Conpile to XSE execute file" HorizontalAlignment="Left" Height="21" Margin="10,131,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="button_xsscompilepath" Content="XSS" HorizontalAlignment="Left" Height="20" Margin="244,10,0,0" VerticalAlignment="Top" Width="38" Click="button_xsscompilepath_Click"/>
+        <Button x:Name="button_xasmcompilepath" Content="XASM" HorizontalAlignment="Left" Height="20" Margin="244,45,0,0" VerticalAlignment="Top" Width="38" Click="button_xasmcompilepath_Click"/>
+        <Button x:Name="button_xsedebuggerpath" Content="XSE" HorizontalAlignment="Left" Height="20" Margin="244,80,0,0" VerticalAlignment="Top" Width="38" Click="button_xsedebuggerpath_Click"/>
+        <Button x:Name="button_savesetting" Content="Save Setting" HorizontalAlignment="Left" Height="24" Margin="91,157,0,0" VerticalAlignment="Top" Width="100" Click="button_savesetting_Click"/>
+
+
+    </Grid>
+</Window>

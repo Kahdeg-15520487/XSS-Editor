@@ -1,0 +1,13 @@
+﻿  xsc.cpp
+  symbol_table.cpp
+  stack.cpp
+  preprocessor.cpp
+  parser.cpp
+  linked_list.cpp
+  lexer.cpp
+  i_code.cpp
+  func_table.cpp
+  error.cpp
+  code_emit.cpp
+  Generating Code...
+  XSS_Compiler.vcxproj -> G:\Workspace\c++\XSS_Compiler\Debug\XSS_Compiler.exe

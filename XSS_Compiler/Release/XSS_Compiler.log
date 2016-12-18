@@ -1,0 +1,18 @@
+﻿  code_emit.cpp
+  error.cpp
+  func_table.cpp
+  i_code.cpp
+  lexer.cpp
+  linked_list.cpp
+  parser.cpp
+parser.cpp(1572): warning C4101: 'iInstrIndex': unreferenced local variable
+  preprocessor.cpp
+  stack.cpp
+  symbol_table.cpp
+  xsc.cpp
+  Generating code
+  36 of 106 functions (34.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    33 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  XSS_Compiler.vcxproj -> G:\Workspace\c++\XSS_Compiler\XSS_Compiler\..\Build\XSS_Compiler.exe
